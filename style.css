@@ -1,0 +1,82 @@
+/* https://colorhunt.co/palette/493d9eb2a5ffdad2fffff2af */
+
+header {
+  background-color: #493d9e;
+  height: 4rem;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+header a {
+  background-color: #b2a5ff;
+  color: #dad2ff;
+  border-radius: 20%;
+  font-size: 1.2rem;
+  text-decoration: none;
+  padding: 15px 25px;
+  font-weight: bold;
+}
+
+/* Optional: Add hover effect */
+header a:hover {
+  background-color: #9c8cff;
+  transform: scale(1.05);
+  transition: all 0.2s ease;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #f2f2f2;
+  cursor: pointer;
+}
+
+tr:hover {
+  background-color: #f1f1f1;
+}
+
+/* Autocomplete styling */
+.autocomplete {
+  position: relative;
+  display: inline-block;
+}
+
+.autocomplete-items {
+  position: absolute;
+  border: 1px solid #d4d4d4;
+  border-bottom: none;
+  border-top: none;
+  z-index: 99;
+  top: 100%;
+  left: 0;
+  right: 0;
+}
+
+.autocomplete-items div {
+  padding: 10px;
+  cursor: pointer;
+  background-color: #fff;
+  border-bottom: 1px solid #d4d4d4;
+}
+
+.autocomplete-items div:hover {
+  background-color: #e9e9e9;
+}

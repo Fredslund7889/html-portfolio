@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>My Hobbies</title>
+  </head>
+  <body>
+    <script src="header.js"></script>
+    <h1>Great Guitar Chords!</h1>
+    <div class="autocomplete">
+      <input
+        id="artistFilter"
+        type="text"
+        onkeyup="autocomplete(this)"
+        placeholder="Filter by artist..."
+      />
+      <div id="autocomplete-list" class="autocomplete-items"></div>
+    </div>
+    <table id="chordsTable">
+      <thead>
+        <tr>
+          <th>Artist</th>
+          <th>Song</th>
+          <th>Chords</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Zach Bryan</td>
+          <td>Something In The Orange</td>
+          <td>
+            <a
+              href="https://tabs.ultimate-guitar.com/tab/zach-bryan/something-in-the-orange-chords-4012711"
+              target="_blank"
+            >
+              View Chords
+            </a>
+          </td>
+        </tr>
+        <tr>
+          <td>The Lumineers</td>
+          <td>Sleep On The Floor</td>
+          <td>
+            <a
+              href="https://tabs.ultimate-guitar.com/tab/the-lumineers/sleep-on-the-floor-chords-1815265"
+              target="_blank"
+            >
+              View Chords
+            </a>
+          </td>
+        </tr>
+        <tr>
+          <td>Arctic Monkeys</td>
+          <td>Fluorescent Adolescent</td>
+          <td>
+            <a
+              href="https://tabs.ultimate-guitar.com/tab/arctic-monkeys/fluorescent-adolescent-chords-510133"
+              target="_blank"
+            >
+              View Chords
+            </a>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <script src="script.js"></script>
+  </body>
+</html>
